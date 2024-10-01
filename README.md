@@ -26,10 +26,6 @@ https://github.com/user-attachments/assets/8972c0cc-1602-4fc0-a309-b3952683e83e
 
 
 
-### Instruções de acesso
-
-
-
 ### Screencast do uso do sistema
 
 
