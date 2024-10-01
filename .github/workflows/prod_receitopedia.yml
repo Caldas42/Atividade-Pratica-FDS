@@ -29,6 +29,10 @@ jobs:
       
       - name: Install dependencies
         run: pip install -r requirements.txt
+
+      - name: Cleaning testing files
+        run: |
+          rm -f .env
         
       # Optional: Add step to run tests here (PyTest, Django test suites, etc.)
 
@@ -79,7 +83,3 @@ jobs:
         with:
           app-name: 'receitopedia'
           slot-name: 'Production'
-
-      - name: Cleaning testing files
-        run: |
-          rm -f .env
