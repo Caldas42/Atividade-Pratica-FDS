@@ -82,6 +82,4 @@ jobs:
 
       - name: Cleaning testing files
         run: |
-          cd receitopedia/
           rm .env
-          cd ..
