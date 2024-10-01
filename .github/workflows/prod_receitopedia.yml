@@ -82,4 +82,4 @@ jobs:
 
       - name: Cleaning testing files
         run: |
-          rm .env
+          rm -f .env
